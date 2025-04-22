@@ -1,0 +1,32 @@
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: #f8f9fa;
+}
+
+.contact-form .form-label {
+  font-weight: 500;
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
+
+.contact-form .btn {
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+}
+
+.contact-form .invalid-feedback {
+  font-size: 0.875rem;
+  color: #dc3545;
+}

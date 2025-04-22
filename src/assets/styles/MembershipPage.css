@@ -1,0 +1,26 @@
+.membership-tiers {
+  background-color: #f8f9fa; /* Light gray for contrast */
+}
+
+.membership-form-section {
+  background-color: #ffffff; /* White background */
+}
+.membership-tiers .h-100 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body ul {
+  flex-grow: 1; /* Ensures benefits take flexible space, aligning buttons */
+}
+
+.card .btn {
+  margin-top: auto; /* Ensures the button aligns at the bottom */
+}
+

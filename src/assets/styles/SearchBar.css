@@ -1,0 +1,18 @@
+.search-bar-input {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-bar-input:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #007bff;
+}
+
+.search-bar .btn {
+  border-radius: 8px;
+}
+
+.search-bar {
+  max-width: 600px;
+  margin: 0 auto; /* Center the search bar */
+}

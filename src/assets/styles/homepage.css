@@ -1,0 +1,15 @@
+.hero .carousel-item{
+  height: 500px;
+  overflow: hidden;
+}
+
+/* Ensure Cards Have Equal Heights */
+.services .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make card fill the height of its container */
+}
+
+.services .card-body {
+  flex-grow: 1; /* Allow the body to expand and fill available space */
+}

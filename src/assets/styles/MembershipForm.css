@@ -1,0 +1,29 @@
+.membership-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f8f9fa; /* Light gray background for the form */
+}
+
+.membership-form-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40; /* Dark gray for the title */
+}
+
+.membership-input,
+.membership-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da; /* Standard border color */
+  padding: 10px;
+}
+
+.membership-input:focus,
+.membership-select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Soft focus glow */
+}
+
+.membership-form-container button {
+  font-size: 1rem;
+  font-weight: bold;
+}

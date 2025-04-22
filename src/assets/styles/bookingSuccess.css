@@ -1,0 +1,26 @@
+.booking-success {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.success-icon {
+  font-size: 4rem;
+  color: #28a745;
+}
+
+.booking-summary,
+.user-info {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-summary h2,
+.user-info h2 {
+  margin-bottom: 1rem;
+}
+
+.booking-success div button {
+  min-width: 150px;
+}

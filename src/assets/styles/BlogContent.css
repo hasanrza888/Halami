@@ -1,0 +1,21 @@
+.blog-content-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40; /* Dark gray */
+}
+
+.blog-content-metadata {
+  font-size: 0.95rem;
+  color: #6c757d; /* Muted gray */
+}
+
+.blog-content-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.blog-content-body p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #495057; /* Medium gray for readability */
+}

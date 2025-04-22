@@ -1,0 +1,46 @@
+footer {
+  background-color: #1c1c1e; /* Deep dark gray for contrast */
+  color: #f8f9fa; /* Brighter text */
+}
+
+footer h4, footer h5 {
+  color: #ffffff; /* Bright white headings */
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.95rem;
+  color: #e9ecef; /* Lighter gray for description text */
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #17a2b8; /* Bright cyan hover effect */
+}
+
+footer .fab {
+  color: #f8f9fa; /* White for icons */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+footer .fab:hover {
+  transform: scale(1.2); /* Zoom effect */
+  color: #17a2b8; /* Cyan hover effect */
+}
+
+footer small {
+  font-size: 0.85rem;
+  color: #e9ecef;
+}

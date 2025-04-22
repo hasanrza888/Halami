@@ -1,0 +1,56 @@
+.hotel-details {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hotel-details .section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hotel-details .hotel-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hotel-gallery {
+  position: relative;
+}
+
+.main-slider .gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.thumbnail-slider .thumbnail-image {
+  width: 100%;
+  height: 75px; /* Adjust thumbnail height */
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnail-slider .slick-current .thumbnail-image {
+  border-color: #007bff; /* Highlight current thumbnail */
+}
+
+.hotel-info, .room-details, .booking-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-info h2,
+.room-details h2,
+.booking-form h2 {
+  margin-bottom: 1rem;
+}
+
+.hotel-info p{
+  margin-bottom: 5px;
+}

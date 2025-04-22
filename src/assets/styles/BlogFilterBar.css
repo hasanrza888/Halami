@@ -1,0 +1,17 @@
+.blog-filter-bar {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.blog-search-input {
+  border-radius: 8px;
+}
+
+.blog-category-select {
+  border-radius: 8px;
+}
+
+.blog-filter-bar .btn-primary {
+  border-radius: 8px;
+}

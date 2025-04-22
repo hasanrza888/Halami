@@ -1,0 +1,28 @@
+.benefits-highlight {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.benefit-card {
+  border-radius: 8px;
+  background-color: #ffffff; /* White card background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon {
+  color: #007bff; /* Blue icon color */
+}
+
+.benefit-title {
+  font-size: 1.25rem;
+  color: #343a40; /* Dark gray for the title */
+}
+
+.benefit-description {
+  font-size: 0.95rem;
+  color: #6c757d; /* Muted gray for the description */
+}

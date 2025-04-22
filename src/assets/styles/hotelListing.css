@@ -1,0 +1,42 @@
+.sidebar {
+  height: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .row > .col-md-3 {
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-3 {
+    display: none !important;
+  }
+}
+
+form.row .form-control,
+form.row .form-select {
+  margin-bottom: 10px; 
+}
+
+@media (min-width: 768px) {
+  form.row .form-control,
+  form.row .form-select {
+    margin-bottom: 0; 
+  }
+}
+
+form.row .form-select {
+  padding-right: 20px;
+}
+
+/* Remove blue focus border for inputs */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important; /* Removes Bootstrap's default box-shadow */
+}

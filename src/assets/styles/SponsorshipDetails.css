@@ -1,0 +1,50 @@
+.sponsorship-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.sponsorship-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsorship-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.sponsorship-section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.sponsorship-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #495057;
+}
+
+.sponsorship-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sponsorship-list-item {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #495057;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.sponsorship-list-item:before {
+  content: "✔";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
